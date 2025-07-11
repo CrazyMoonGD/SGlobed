@@ -1,2 +1,3 @@
-port = 10000
+[default]
+port = 8100
 address = "::"
