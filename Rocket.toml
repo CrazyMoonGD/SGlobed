@@ -1,3 +1,18 @@
 [default]
 port = 8100
 address = "::"
+cli_colors = true
+
+[default.limits]
+form = "1KiB"
+data-form = "1KiB"
+file = "1KiB"
+json = "1MiB"
+msgpack = "1KiB"
+string = "1MiB"
+bytes = "8KiB"
+
+[global.databases.globed_db]
+pool_size = 25
+timeout = 10
+url = "sqlite://db.sqlite?mode=rwc"
