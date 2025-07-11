@@ -1,0 +1,12 @@
+{
+  "id": "mi-servidor",
+  "name": "Mi GDPS",
+  "address": "ejemplo.at.ply.gg:8400",
+  "region": "Latam",
+  "admin_key": "miclaveadmin",
+  "use_gd_api": true,
+  "gd_api_account": "1234567",
+  "gd_api_gjp": "aqui_el_gjp2",
+  "gd_api_url": "https://tu-gdps.com/database/",
+  "game_server_password": "clave-secreta"
+}
